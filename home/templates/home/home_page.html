@@ -1,21 +1,17 @@
 {% extends "base.html" %}
-{% load static %}
-
-{% block body_class %}template-homepage{% endblock %}
-
-{% block extra_css %}
-
-{% comment %}
-Delete the line below if you're just getting started and want to remove the welcome screen!
-{% endcomment %}
-<link rel="stylesheet" href="{% static 'css/welcome_page.css' %}">
-{% endblock extra_css %}
-
 {% block content %}
-
-{% comment %}
-Delete the line below if you're just getting started and want to remove the welcome screen!
-{% endcomment %}
-{% include 'home/welcome_page.html' %}
-
+<h1>{{ page.title }}</h1>
+<p>
+    Bonjour, je m'appelle Bouchrhel Fatima Zzahra. Je suis en formation "Découverte
+    Métier IA" chez Simplon Bordeaux, où j'apprends les bases du
+    développement web : HTML, CSS, Python, et des outils comme Git et
+    Wagtail.
+</p>
+<p>
+   Je me suis lancée dans cette formation parce que j’ai toujours aimé apprendre, résoudre des problèmes et relever de nouveaux défis. 
+   Après un parcours en commercial,gestion, logistique et gestion de la paie, 
+   j’ai envie de donner une nouvelle dimension à mes compétences en explorant l’intelligence artificielle. 
+   Pour moi, se réinventer, c’est savoir transformer chaque expérience en opportunité. 
+   Et puis, soyons honnêtes : si l’IA peut m’aider à résoudre des problèmes plutôt qu’à en créer, autant apprendre à la maîtriser !
+</p>
 {% endblock content %}

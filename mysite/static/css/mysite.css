@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(185, 182, 219);
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+    color: #18135e;
+}
+h1 {
+    color: #18135e;
+}
